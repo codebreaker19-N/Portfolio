@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nidhi - Web developer </title>
+</head>
+<!-- 
+        NEW: Link to your external CSS file.
+        This tells the browser where to find the styling rules for the page.
+        It's placed in the <head> to prevent a Flash of Unstyled Content (FOUC).
+    -->
+     <link rel="stylesheet" href="style.css">
+<!-- 
+        NEW: Link to your external JavaScript file.
+        The 'defer' attribute tells the browser to download the script alongside
+        the HTML, but wait to execute it until the HTML is fully parsed.
+        This is the modern best practice for performance and reliability.
+    -->
+     <script src="main.js" defer></script>
+
+<body>
+    <header>
+        <nav>
+            <!-- making website more accessible..-->
+             <ul>
+                <!-- unordered list-->
+                 <li>
+                    <!-- oredred list-->
+                    
+                    <!-- clickable text-->
+                     <a href="#">Home</a></li>
+                 <li> <a href="#">About</a></li>
+                 <li><a href="#">Projects</a></li>
+                 <li><a href="#">Contacts</a></li>
+             </ul>
+        </nav>
+    </header>
+    <section id = "Hero">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Nidhi, a passionate and creative web developer based in India. My journey into the world of code began with a fascination for how elegant design and powerful technology could come together to create amazing digital experiences.
+            </p>
+            <p>
+                I specialize in front-end development, with a strong command of HTML, CSS, and JavaScript. I love bringing ideas to life in the browser and am always eager to learn new technologies and frameworks to enhance my skills. When I'm not coding, you can find me exploring the outdoors, reading a good book, or working on personal projects that challenge me to think outside the box.
+            </p>
+
+        </div>
+    </section>
+    <section id = "Projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="Project-container"></div>
+        </div>
+    </section>
+    <section id="Contacts">
+        <div class="contaner">
+            <h2>Contact Me</h2>
+            <p>I'm always open to discussing new projects or opportunities. Feel free to reach out!</p>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="user_name" placeholder="Your Name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="user_email" placeholder="Your Email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="user_message" rows="5" placeholder="Your Message" required></textarea><textarea name="" id=""></textarea>
+                <button type="Sumbit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+            <ul>
+                <li><a href="#" target="_blank">Github</a></li>
+                <li><a href="#" target="_blank">LinkedIn</a></li>
+                <li><a href="#" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
